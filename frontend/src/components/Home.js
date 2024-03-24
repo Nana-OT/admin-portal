@@ -5,7 +5,6 @@ import SidePanel from './SidePanel'
 export default function Home() {
   return (
     <div>
-        {/* <Navbar/> */}
         <SidePanel/>
     </div>
   )
