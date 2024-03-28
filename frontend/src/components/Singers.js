@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Members() {
+export default function Singers() {
   return (
     <div>
-       <div style={{ position: 'absolute', bottom: 400, left: 350 }}>
+         <div style={{ position: 'absolute', bottom: 400, left: 350 }}>
       <table className="table">
         <thead className="table-light">
           <tr>

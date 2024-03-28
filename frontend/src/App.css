@@ -22,3 +22,7 @@
     padding: 15px;
     border-radius: 7px;
 }
+.table thead,
+.table tbody {
+  padding: 10px; /* Adjust the padding to space out columns */
+}
