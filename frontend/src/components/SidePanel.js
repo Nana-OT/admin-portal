@@ -30,7 +30,7 @@ export default function SidePanel() {
 
   return (
     <div>
-    <div className="bg-black" style={{ width: '250px', height: '100vh', paddingTop: '20px', textAlign: 'center', zIndex: -1 }}>
+    <div className="bg-black" style={{ position: 'fixed', width: '250px', height: '100vh', paddingTop: '20px', textAlign: 'center', zIndex: -1 }}>
       <div>
       <img src={Logo} style={{width: '35px'}} alt='logo'/>
       <h6 className='text-white'>Global Rescue Power Chapel, Accra</h6>
@@ -56,7 +56,7 @@ export default function SidePanel() {
         </li>
         </div>
       </ul>
-      <button type="button" class="btn btn-outline-primary text-white" style={{position:'absolute' ,bottom: 10, left: '9%', transform: 'translateX(-50%)'}}>Logout</button>
+      <button type="button" className="btn btn-outline-primary text-white" style={{position:'absolute' ,bottom: 10, left: '45%', transform: 'translateX(-50%)'}}>Logout</button>
     </div>
     <div style={{position: 'absolute', top: 30, right: 60, width: '70%'}}>
         <Navbar activity={activity}/>
